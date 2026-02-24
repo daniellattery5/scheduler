@@ -7,7 +7,7 @@ class Task:
         self.done = True
 
     def __str__(self):
-        # Show [X] if done, otherwise [ ]
+        # Show [X] if done, otherwise []
         if self.done:
             box = "[X]"
         else:
